@@ -110,6 +110,12 @@
     
     CGFloat duration = 0.25;
     
+    NSArray *winds = [UIApplication sharedApplication].windows;
+    
+    for (UIWindow *w in winds) {
+        NSLog(@"%f",w.windowLevel);
+    }
+    
     [UIView animateWithDuration:duration animations:^{
         label.frame = newFrame;
     } completion:^(BOOL finished) {
