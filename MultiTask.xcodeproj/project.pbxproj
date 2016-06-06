@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4AC3591D054E1C001302DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC3581D054E1C001302DB /* main.m */; };
+		EC4AC35C1D054E1C001302DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC35B1D054E1C001302DB /* AppDelegate.m */; };
+		EC4AC35F1D054E1C001302DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC35E1D054E1C001302DB /* ViewController.m */; };
+		EC4AC3621D054E1C001302DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4AC3601D054E1C001302DB /* Main.storyboard */; };
+		EC4AC3641D054E1C001302DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4AC3631D054E1C001302DB /* Assets.xcassets */; };
+		EC4AC3671D054E1C001302DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4AC3651D054E1C001302DB /* LaunchScreen.storyboard */; };
+		EC4AC3721D054E1C001302DB /* MultiTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC3711D054E1C001302DB /* MultiTaskTests.m */; };
+		EC4AC37D1D054E1C001302DB /* MultiTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC37C1D054E1C001302DB /* MultiTaskUITests.m */; };
+		EC4AC38F1D054E67001302DB /* MultiTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC38C1D054E67001302DB /* MultiTaskManager.m */; };
+		EC4AC3901D054E67001302DB /* TaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC38E1D054E67001302DB /* TaskModel.m */; };
+		EC4AC3941D054EC9001302DB /* MultiTaskDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC3931D054EC9001302DB /* MultiTaskDownloadCell.m */; };
+		EC4AC3971D054ED3001302DB /* MultiTaskDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC3961D054ED3001302DB /* MultiTaskDownloadController.m */; };
+		EC4AC39A1D054F16001302DB /* pasue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC4AC3981D054F16001302DB /* pasue.jpg */; };
+		EC4AC39B1D054F16001302DB /* play.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC4AC3991D054F16001302DB /* play.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC4AC36E1D054E1C001302DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4AC34C1D054E1C001302DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4AC3531D054E1C001302DB;
+			remoteInfo = MultiTask;
+		};
+		EC4AC3791D054E1C001302DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4AC34C1D054E1C001302DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4AC3531D054E1C001302DB;
+			remoteInfo = MultiTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC4AC3541D054E1C001302DB /* MultiTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4AC3581D054E1C001302DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC4AC35A1D054E1C001302DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC4AC35B1D054E1C001302DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC4AC35D1D054E1C001302DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC4AC35E1D054E1C001302DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC4AC3611D054E1C001302DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC4AC3631D054E1C001302DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC4AC3661D054E1C001302DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC4AC3681D054E1C001302DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4AC36D1D054E1C001302DB /* MultiTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4AC3711D054E1C001302DB /* MultiTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTaskTests.m; sourceTree = "<group>"; };
+		EC4AC3731D054E1C001302DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4AC3781D054E1C001302DB /* MultiTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4AC37C1D054E1C001302DB /* MultiTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTaskUITests.m; sourceTree = "<group>"; };
+		EC4AC37E1D054E1C001302DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4AC38B1D054E67001302DB /* MultiTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTaskManager.h; sourceTree = "<group>"; };
+		EC4AC38C1D054E67001302DB /* MultiTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiTaskManager.m; sourceTree = "<group>"; };
+		EC4AC38D1D054E67001302DB /* TaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskModel.h; sourceTree = "<group>"; };
+		EC4AC38E1D054E67001302DB /* TaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskModel.m; sourceTree = "<group>"; };
+		EC4AC3921D054EC9001302DB /* MultiTaskDownloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTaskDownloadCell.h; sourceTree = "<group>"; };
+		EC4AC3931D054EC9001302DB /* MultiTaskDownloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiTaskDownloadCell.m; sourceTree = "<group>"; };
+		EC4AC3951D054ED3001302DB /* MultiTaskDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTaskDownloadController.h; sourceTree = "<group>"; };
+		EC4AC3961D054ED3001302DB /* MultiTaskDownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiTaskDownloadController.m; sourceTree = "<group>"; };
+		EC4AC3981D054F16001302DB /* pasue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pasue.jpg; sourceTree = "<group>"; };
+		EC4AC3991D054F16001302DB /* play.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = play.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4AC3511D054E1C001302DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AC36A1D054E1C001302DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AC3751D054E1C001302DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4AC34B1D054E1C001302DB = {
+			isa = PBXGroup;
+			children = (
+				EC4AC3561D054E1C001302DB /* MultiTask */,
+				EC4AC3701D054E1C001302DB /* MultiTaskTests */,
+				EC4AC37B1D054E1C001302DB /* MultiTaskUITests */,
+				EC4AC3551D054E1C001302DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4AC3551D054E1C001302DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AC3541D054E1C001302DB /* MultiTask.app */,
+				EC4AC36D1D054E1C001302DB /* MultiTaskTests.xctest */,
+				EC4AC3781D054E1C001302DB /* MultiTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4AC3561D054E1C001302DB /* MultiTask */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AC3911D054EC2001302DB /* views */,
+				EC4AC38A1D054E4D001302DB /* MultiTaskManger */,
+				EC4AC35A1D054E1C001302DB /* AppDelegate.h */,
+				EC4AC35B1D054E1C001302DB /* AppDelegate.m */,
+				EC4AC35D1D054E1C001302DB /* ViewController.h */,
+				EC4AC35E1D054E1C001302DB /* ViewController.m */,
+				EC4AC3981D054F16001302DB /* pasue.jpg */,
+				EC4AC3991D054F16001302DB /* play.jpg */,
+				EC4AC3601D054E1C001302DB /* Main.storyboard */,
+				EC4AC3631D054E1C001302DB /* Assets.xcassets */,
+				EC4AC3651D054E1C001302DB /* LaunchScreen.storyboard */,
+				EC4AC3681D054E1C001302DB /* Info.plist */,
+				EC4AC3571D054E1C001302DB /* Supporting Files */,
+			);
+			path = MultiTask;
+			sourceTree = "<group>";
+		};
+		EC4AC3571D054E1C001302DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AC3581D054E1C001302DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC4AC3701D054E1C001302DB /* MultiTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AC3711D054E1C001302DB /* MultiTaskTests.m */,
+				EC4AC3731D054E1C001302DB /* Info.plist */,
+			);
+			path = MultiTaskTests;
+			sourceTree = "<group>";
+		};
+		EC4AC37B1D054E1C001302DB /* MultiTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AC37C1D054E1C001302DB /* MultiTaskUITests.m */,
+				EC4AC37E1D054E1C001302DB /* Info.plist */,
+			);
+			path = MultiTaskUITests;
+			sourceTree = "<group>";
+		};
+		EC4AC38A1D054E4D001302DB /* MultiTaskManger */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AC38B1D054E67001302DB /* MultiTaskManager.h */,
+				EC4AC38C1D054E67001302DB /* MultiTaskManager.m */,
+				EC4AC38D1D054E67001302DB /* TaskModel.h */,
+				EC4AC38E1D054E67001302DB /* TaskModel.m */,
+			);
+			path = MultiTaskManger;
+			sourceTree = "<group>";
+		};
+		EC4AC3911D054EC2001302DB /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AC3921D054EC9001302DB /* MultiTaskDownloadCell.h */,
+				EC4AC3931D054EC9001302DB /* MultiTaskDownloadCell.m */,
+				EC4AC3951D054ED3001302DB /* MultiTaskDownloadController.h */,
+				EC4AC3961D054ED3001302DB /* MultiTaskDownloadController.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4AC3531D054E1C001302DB /* MultiTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4AC3811D054E1C001302DB /* Build configuration list for PBXNativeTarget "MultiTask" */;
+			buildPhases = (
+				EC4AC3501D054E1C001302DB /* Sources */,
+				EC4AC3511D054E1C001302DB /* Frameworks */,
+				EC4AC3521D054E1C001302DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiTask;
+			productName = MultiTask;
+			productReference = EC4AC3541D054E1C001302DB /* MultiTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC4AC36C1D054E1C001302DB /* MultiTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4AC3841D054E1C001302DB /* Build configuration list for PBXNativeTarget "MultiTaskTests" */;
+			buildPhases = (
+				EC4AC3691D054E1C001302DB /* Sources */,
+				EC4AC36A1D054E1C001302DB /* Frameworks */,
+				EC4AC36B1D054E1C001302DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4AC36F1D054E1C001302DB /* PBXTargetDependency */,
+			);
+			name = MultiTaskTests;
+			productName = MultiTaskTests;
+			productReference = EC4AC36D1D054E1C001302DB /* MultiTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC4AC3771D054E1C001302DB /* MultiTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4AC3871D054E1C001302DB /* Build configuration list for PBXNativeTarget "MultiTaskUITests" */;
+			buildPhases = (
+				EC4AC3741D054E1C001302DB /* Sources */,
+				EC4AC3751D054E1C001302DB /* Frameworks */,
+				EC4AC3761D054E1C001302DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4AC37A1D054E1C001302DB /* PBXTargetDependency */,
+			);
+			name = MultiTaskUITests;
+			productName = MultiTaskUITests;
+			productReference = EC4AC3781D054E1C001302DB /* MultiTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4AC34C1D054E1C001302DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xintong;
+				TargetAttributes = {
+					EC4AC3531D054E1C001302DB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EC4AC36C1D054E1C001302DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC4AC3531D054E1C001302DB;
+					};
+					EC4AC3771D054E1C001302DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC4AC3531D054E1C001302DB;
+					};
+				};
+			};
+			buildConfigurationList = EC4AC34F1D054E1C001302DB /* Build configuration list for PBXProject "MultiTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4AC34B1D054E1C001302DB;
+			productRefGroup = EC4AC3551D054E1C001302DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4AC3531D054E1C001302DB /* MultiTask */,
+				EC4AC36C1D054E1C001302DB /* MultiTaskTests */,
+				EC4AC3771D054E1C001302DB /* MultiTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4AC3521D054E1C001302DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4AC3671D054E1C001302DB /* LaunchScreen.storyboard in Resources */,
+				EC4AC39B1D054F16001302DB /* play.jpg in Resources */,
+				EC4AC3641D054E1C001302DB /* Assets.xcassets in Resources */,
+				EC4AC39A1D054F16001302DB /* pasue.jpg in Resources */,
+				EC4AC3621D054E1C001302DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AC36B1D054E1C001302DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AC3761D054E1C001302DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4AC3501D054E1C001302DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4AC35F1D054E1C001302DB /* ViewController.m in Sources */,
+				EC4AC35C1D054E1C001302DB /* AppDelegate.m in Sources */,
+				EC4AC3941D054EC9001302DB /* MultiTaskDownloadCell.m in Sources */,
+				EC4AC3901D054E67001302DB /* TaskModel.m in Sources */,
+				EC4AC38F1D054E67001302DB /* MultiTaskManager.m in Sources */,
+				EC4AC3971D054ED3001302DB /* MultiTaskDownloadController.m in Sources */,
+				EC4AC3591D054E1C001302DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AC3691D054E1C001302DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4AC3721D054E1C001302DB /* MultiTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4AC3741D054E1C001302DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4AC37D1D054E1C001302DB /* MultiTaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC4AC36F1D054E1C001302DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4AC3531D054E1C001302DB /* MultiTask */;
+			targetProxy = EC4AC36E1D054E1C001302DB /* PBXContainerItemProxy */;
+		};
+		EC4AC37A1D054E1C001302DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4AC3531D054E1C001302DB /* MultiTask */;
+			targetProxy = EC4AC3791D054E1C001302DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC4AC3601D054E1C001302DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4AC3611D054E1C001302DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC4AC3651D054E1C001302DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4AC3661D054E1C001302DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC4AC37F1D054E1C001302DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC4AC3801D054E1C001302DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC4AC3821D054E1C001302DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.MultiTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC4AC3831D054E1C001302DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.MultiTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC4AC3851D054E1C001302DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.MultiTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiTask.app/MultiTask";
+			};
+			name = Debug;
+		};
+		EC4AC3861D054E1C001302DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.MultiTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiTask.app/MultiTask";
+			};
+			name = Release;
+		};
+		EC4AC3881D054E1C001302DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.MultiTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiTask;
+			};
+			name = Debug;
+		};
+		EC4AC3891D054E1C001302DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xintong.MultiTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4AC34F1D054E1C001302DB /* Build configuration list for PBXProject "MultiTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4AC37F1D054E1C001302DB /* Debug */,
+				EC4AC3801D054E1C001302DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4AC3811D054E1C001302DB /* Build configuration list for PBXNativeTarget "MultiTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4AC3821D054E1C001302DB /* Debug */,
+				EC4AC3831D054E1C001302DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC4AC3841D054E1C001302DB /* Build configuration list for PBXNativeTarget "MultiTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4AC3851D054E1C001302DB /* Debug */,
+				EC4AC3861D054E1C001302DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC4AC3871D054E1C001302DB /* Build configuration list for PBXNativeTarget "MultiTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4AC3881D054E1C001302DB /* Debug */,
+				EC4AC3891D054E1C001302DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4AC34C1D054E1C001302DB /* Project object */;
+}
