@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "252A020F59871F63D47CA99C14AA044D37142D65",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B2F6206DF88338C64404EAF6713B8083934368D7" : 0,
+    "252A020F59871F63D47CA99C14AA044D37142D65" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9A8D8119-27A2-4660-99D4-B612FBBF2A06",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B2F6206DF88338C64404EAF6713B8083934368D7" : "",
+    "252A020F59871F63D47CA99C14AA044D37142D65" : "MultiTask\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MultiTask",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MultiTask.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mySVNxiexiaolong\/MultiTask.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "252A020F59871F63D47CA99C14AA044D37142D65"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mgfjxxiexiaolong\/learngit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2F6206DF88338C64404EAF6713B8083934368D7"
+    }
+  ]
+}
